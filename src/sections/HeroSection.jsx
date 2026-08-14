@@ -61,4 +61,8 @@ const HeroSection = () => {
 
                     <div
                         style={{
-                            clipPath: "polygon(50% 0, 50% 0, 50% 99%, 50% 96%)",
+                            clipPath: "polygon(50% 0, 50% 0, 50% 99%, 50% 96%)",
+                        }}
+                        className="hero-text-scroll">
+
+                        <div className="hero-subtitle">
