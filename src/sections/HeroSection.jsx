@@ -87,4 +87,9 @@ const HeroSection = () => {
                         <button className="hero-button">CHUG A SPYLT</button>
                     </div>
                 </div>
-            </div>
+            </div>
+        </section>
+    )
+}
+
+export default HeroSection
