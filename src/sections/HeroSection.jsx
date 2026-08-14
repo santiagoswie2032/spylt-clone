@@ -69,4 +69,8 @@ const HeroSection = () => {
                             <h1>Protein + Caffine</h1>
                         </div>
                     </div>
-
+
+                    <h2>
+                        Live Life to the fullest with SPYLT: Shatter boredom and
+                        embrace your inner child with every delicously smooth chug.
+                    </h2>
