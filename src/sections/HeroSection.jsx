@@ -37,4 +37,14 @@ const HeroSection = () => {
         }, "-=0.8")
 
         //-=0.5 is the position parameter here which basially cancels out the default 0.5s duration
-        // of hero-content to make sure both happens kinda at same point instead of one after another
+        // of hero-content to make sure both happens kinda at same point instead of one after another
+        // its basically for overlapping animation
+
+        // okay so the first thing that is getting
+        // animated is the hero-content which has 
+        // hero-title, hero-subtitle, chug splyt button etc
+
+        // okay so this is a "to" animation and not "fro" so gotta define initial
+        // position here 
+
+
