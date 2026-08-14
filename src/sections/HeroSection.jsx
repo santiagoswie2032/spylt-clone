@@ -5,4 +5,8 @@ import { SplitText } from "gsap/all";
 const HeroSection = () => {
 
     useGSAP((animation) => {
+
+        const titleSplit = SplitText.create(".hero-title", {
+            type: "chars"
+        });
 
