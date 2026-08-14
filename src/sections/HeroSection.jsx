@@ -45,4 +45,8 @@ const HeroSection = () => {
 
 
 
-    return (
+    return (
+        <section className="bg-main-bg">
+            <div className="hero-container">
+                <img
+                    src="/images/static-img.png"
