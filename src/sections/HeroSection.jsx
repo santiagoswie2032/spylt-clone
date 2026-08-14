@@ -29,4 +29,8 @@ const HeroSection = () => {
         }).to('.hero-text-scroll', {
             duration: 1,
             clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-            ease: "circ.out"
+            ease: "circ.out"
+        })
+
+
+        // okay so the first thing that is getting
