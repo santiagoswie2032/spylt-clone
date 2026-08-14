@@ -37,4 +37,8 @@ const HeroSection = () => {
         // animated is the hero-content which has 
         // hero-title, hero-subtitle, chug splyt button etc
 
-        // okay so this is a "to" animation and not "fro" so gotta define initial
+        // okay so this is a "to" animation and not "fro" so gotta define initial
+        // position here 
+
+    });
+
