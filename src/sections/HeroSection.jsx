@@ -17,4 +17,8 @@ const HeroSection = () => {
 
         const tl = gsap.timeline({
             delay: 1,       //gsap timeline to animate the initial loading
-        });
+        });
+
+
+
+        tl.to('.hero-content', {
