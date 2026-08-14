@@ -67,4 +67,14 @@ const HeroSection = () => {
                         <h1 className="hero-title">Fcuking Delicious</h1>
                     </div>
 
-                    <div
+                    <div
+                        style={{
+                            clipPath: "polygon(50% 0, 50% 0, 50% 99%, 50% 96%)",
+                        }}
+                        className="hero-text-scroll">
+
+                        <div className="hero-subtitle">
+                            <h1>Protein + Caffine</h1>
+                        </div>
+                    </div>
+
