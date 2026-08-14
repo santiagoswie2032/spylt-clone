@@ -57,4 +57,14 @@ const HeroSection = () => {
         <section className="bg-main-bg">
             <div className="hero-container">
                 <img
-                    src="/images/static-img.png"
+                    src="/images/static-img.png"
+                    alt="hero-img"
+                    className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150"
+                />
+
+                <div className="hero-content" style={{ opacity: 0 }}>
+                    <div className="overflow-hidden">
+                        <h1 className="hero-title">Fcuking Delicious</h1>
+                    </div>
+
+                    <div
