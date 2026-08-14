@@ -65,4 +65,8 @@ const HeroSection = () => {
                         }}
                         className="hero-text-scroll">
 
-                        <div className="hero-subtitle">
+                        <div className="hero-subtitle">
+                            <h1>Protein + Caffine</h1>
+                        </div>
+                    </div>
+
