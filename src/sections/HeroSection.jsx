@@ -9,4 +9,8 @@ const HeroSection = () => {
         const titleSplit = SplitText.create(".hero-title", {
             type: "chars"
         });
+
+
+        // okay so the splitText will split block of words into individual
+        // words or chars to animate it 
 
