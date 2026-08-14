@@ -47,4 +47,14 @@ const HeroSection = () => {
         // okay so this is a "to" animation and not "fro" so gotta define initial
         // position here 
 
-
+
+    });
+
+
+
+
+    return (
+        <section className="bg-main-bg">
+            <div className="hero-container">
+                <img
+                    src="/images/static-img.png"
