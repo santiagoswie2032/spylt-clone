@@ -57,4 +57,8 @@ const HeroSection = () => {
                 <div className="hero-content" style={{ opacity: 0 }}>
                     <div className="overflow-hidden">
                         <h1 className="hero-title">Fcuking Delicious</h1>
-                    </div>
+                    </div>
+
+                    <div
+                        style={{
+                            clipPath: "polygon(50% 0, 50% 0, 50% 99%, 50% 96%)",
