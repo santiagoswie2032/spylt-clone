@@ -33,4 +33,8 @@ const HeroSection = () => {
         })
 
 
-        // okay so the first thing that is getting
+        // okay so the first thing that is getting
+        // animated is the hero-content which has 
+        // hero-title, hero-subtitle, chug splyt button etc
+
+        // okay so this is a "to" animation and not "fro" so gotta define initial
