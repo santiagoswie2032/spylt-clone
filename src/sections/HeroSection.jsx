@@ -107,4 +107,14 @@ const HeroSection = () => {
                         Live Life to the fullest with SPYLT: Shatter boredom and
                         embrace your inner child with every delicously smooth chug.
                     </h2>
-
+
+                    <div>
+                        <button className="hero-button">CHUG A SPYLT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default HeroSection
