@@ -87,4 +87,14 @@ const HeroSection = () => {
                     className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150"
                 />
 
-                <div className="hero-content" style={{ opacity: 0 }}>
+                <div className="hero-content" style={{ opacity: 0 }}>
+                    <div className="overflow-hidden">
+                        <h1 className="hero-title">Fcuking Delicious</h1>
+                    </div>
+
+                    <div
+                        style={{
+                            clipPath: "polygon(50% 0, 50% 0, 50% 99%, 50% 96%)",
+                        }}
+                        className="hero-text-scroll">
+
