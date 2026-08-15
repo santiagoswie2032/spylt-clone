@@ -97,4 +97,14 @@ const HeroSection = () => {
                             clipPath: "polygon(50% 0, 50% 0, 50% 99%, 50% 96%)",
                         }}
                         className="hero-text-scroll">
+
+                        <div className="hero-subtitle">
+                            <h1>Protein + Caffine</h1>
+                        </div>
+                    </div>
+
+                    <h2>
+                        Live Life to the fullest with SPYLT: Shatter boredom and
+                        embrace your inner child with every delicously smooth chug.
+                    </h2>
 
