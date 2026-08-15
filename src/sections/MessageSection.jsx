@@ -37,4 +37,14 @@ const MessageSection = () => {
 
         gsap.to(secmsgSplit.words, {
             color: "#faeade",
-            stagger: 0.1,
+            stagger: 0.1,
+            ease: "none",
+            scrollTrigger: {
+                trigger: '.second-message',
+                start: "top center",
+                end: "bottom center",       //giving scroll more distance
+                scrub: 1,               // 1s numeric scrub for buttery lag
+
+
+            }
+
