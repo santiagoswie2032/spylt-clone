@@ -77,4 +77,14 @@ const MessageSection = () => {
     return (
         <section className='message-content'>
             <div className='container mx-auto flex-center py-28 relative'>
-                <div className='w-full h-full'>
+                <div className='w-full h-full'>
+                    <div className='msg-wrapper'>
+                        <h1 className='first-message'>Stir Up Your Fearless Past and</h1>
+
+                        <div style={{
+                            clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)"
+                        }}
+                            className='msg-text-scroll mt-6 md:mt-10'>
+                            <div className="bg-light-brown md:pb-5 pb-3 px-5">
+                                <h2 className='text-red-brown'>Fuel Up Nigga</h2>
+                            </div>
