@@ -61,4 +61,36 @@ const MessageSection = () => {
         });
 
         revealTl.to('.msg-text-scroll', {
-            duration: 1,
+            duration: 1,
+
+            clipPath: "polygon(0 0, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.inOut",
+        })
+
+
+        const paragraphTl = gsap.timeline({
+            scrollTrigger: {                         // scroll trigger will only have trigger: , start: , end: 
+                trigger: '.message-content p',
+                start: 'top 70%',
+
+            }
+        });
+
+        paragraphTl.from(paragraphSplit.words, {
+            duration: 1,                            // how long should it last
+            stagger: 0.02,                          // duration between popping up of each word
+            rotate: 15,                              // starts from a 3 degree rotation back to 0 deg to give that rotating effect
+            ease: 'power1.inOut',                   // smooth effect
+            yPercent: 300                           // where should it start from ? remember, its a reveal animation 
+        })                                          // so you have to hide it first, then it reveals itself
+
+
+    });
+
+
+
+
+
+    return (
+        <section className='message-content'>
+            <div className='container mx-auto flex-center py-28 relative'>
