@@ -17,4 +17,14 @@ const MessageSection = () => {
 
         const paragraphSplit = SplitText.create('.message-content p', {
             type: 'words, lines',
-            linesClass: "paragraph-line"
+            linesClass: "paragraph-line"
+        });
+
+        gsap.to(firstmsgSplit.words, {
+            color: "#faeade",
+            stagger: 0.2,
+            ease: "none",
+            scrollTrigger: {
+                trigger: '.message-content',
+                start: "top center",
+                end: "40% center",       //giving scroll more distance
