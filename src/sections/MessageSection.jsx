@@ -97,4 +97,14 @@ const MessageSection = () => {
                     <div className="flex-center md:mt-20 mt-10">
                         <div className="max-w-md px-10 flex-center overflow-hidden">
                             <p>
-                                Rev up your rebel spirit and feeed the adventure of life with splyt,
+                                Rev up your rebel spirit and feeed the adventure of life with splyt,
+                                where you're one chug away from epic nostalgia and fearless fun.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
