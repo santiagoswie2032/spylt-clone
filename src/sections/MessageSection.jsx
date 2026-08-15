@@ -27,4 +27,14 @@ const MessageSection = () => {
             scrollTrigger: {
                 trigger: '.message-content',
                 start: "top center",
-                end: "40% center",       //giving scroll more distance
+                end: "40% center",       //giving scroll more distance
+                scrub: 1,               // 1s numeric scrub for buttery lag
+
+
+            }
+
+        });
+
+        gsap.to(secmsgSplit.words, {
+            color: "#faeade",
+            stagger: 0.1,
