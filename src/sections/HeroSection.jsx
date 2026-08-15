@@ -47,4 +47,14 @@ const HeroSection = () => {
 
         // okay so this is a "to" animation and not "fro" so gotta define initial
         // position here 
+
+
+        const heroTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".hero-container",
+                start: "1% top",
+                end: "80% top",
+                scrub: 3,          // this is NOT a string, a string will result in default scrub = 0
+
+            },
 
