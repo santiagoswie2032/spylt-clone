@@ -47,4 +47,10 @@ const MessageSection = () => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default MessageSection
