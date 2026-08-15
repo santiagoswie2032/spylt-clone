@@ -42,4 +42,19 @@ const HeroSection = () => {
         // its basically for overlapping animation
 
         // okay so the first thing that is getting
-        // animated is the hero-content which has 
+        // animated is the hero-content which has 
+        // hero-title, hero-subtitle, chug splyt button etc
+
+        // okay so this is a "to" animation and not "fro" so gotta define initial
+        // position here 
+
+
+        const heroTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".hero-container",
+                start: "1% top",
+                end: "bottom top",
+                scrub: "true",
+                markers: true,
+            },
+
