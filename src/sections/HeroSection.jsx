@@ -67,4 +67,14 @@ const HeroSection = () => {
 
         heroTl.to(".hero-container", {
             rotate: 7,                  // rotate effect
-            scale: 0.8,                 // to shrink a lil bit
+            scale: 0.8,                 // to shrink a lil bit
+            yPercent: 30,               // come down a lil bit
+            ease: "power1.inOut"        // smooth in and out motion
+        })
+
+
+    });
+
+
+
+
