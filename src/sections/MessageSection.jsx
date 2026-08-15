@@ -107,4 +107,5 @@ const MessageSection = () => {
         </section>
     )
 }
-
+
+export default MessageSection
