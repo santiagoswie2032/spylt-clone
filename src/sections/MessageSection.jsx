@@ -29,4 +29,36 @@ const MessageSection = () => {
                 start: "top center",
                 end: "40% center",       //giving scroll more distance
                 scrub: 1,               // 1s numeric scrub for buttery lag
-
+
+
+            }
+
+        });
+
+        gsap.to(secmsgSplit.words, {
+            color: "#faeade",
+            stagger: 0.1,
+            ease: "none",
+            scrollTrigger: {
+                trigger: '.second-message',
+                start: "top center",
+                end: "bottom center",       //giving scroll more distance
+                scrub: 1,               // 1s numeric scrub for buttery lag
+
+
+            }
+
+        });
+
+        const revealTl = gsap.timeline({
+            delay: 0,
+            scrollTrigger: {
+                trigger: '.msg-text-scroll',
+                start: "top 60%",
+
+
+            }
+        });
+
+        revealTl.to('.msg-text-scroll', {
+            duration: 1,
