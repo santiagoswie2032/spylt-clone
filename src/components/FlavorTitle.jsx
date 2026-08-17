@@ -51,4 +51,7 @@ const FlavorTitle = () => {
             scrollTrigger: {
                 trigger: '.flavor-text-scroll',
                 start: 'top 50%'
-            }
+            }
+        })
+    })
+
