@@ -12,4 +12,7 @@ const FlavorTitle = () => {
 
         const secText = SplitText.create('.second-text-split h1', {
             type: "chars",
-        });
+        });
+
+
+
