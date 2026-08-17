@@ -72,4 +72,6 @@ const FlavorTitle = () => {
             </div>
         </div>
     )
-}
+}
+
+export default FlavorTitle
