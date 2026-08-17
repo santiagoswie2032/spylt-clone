@@ -15,4 +15,7 @@ const FlavorTitle = () => {
         });
 
 
-
+
+        gsap.from(firstText.chars, {
+            yPercent: 200,
+            stagger: 0.02,
