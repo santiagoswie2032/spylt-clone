@@ -39,4 +39,7 @@ const FlavorTitle = () => {
                 start: "top 80%"
             }
 
-        });
+        });
+
+
+
