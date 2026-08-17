@@ -24,4 +24,7 @@ const FlavorTitle = () => {
             scrollTrigger: {
                 trigger: ".first-text-split h1",
                 start: "top 100%"
-            }
+            }
+
+        })
+
