@@ -3,4 +3,7 @@ import gsap from "gsap";
 import SplitText from "gsap/SplitText.js";
 
 
-const FlavorTitle = () => {
+const FlavorTitle = () => {
+
+    useGSAP(() => {
+        const firstText = SplitText.create('.first-text-split h1', {
