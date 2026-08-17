@@ -1,4 +1,6 @@
 
 const FlavorSlider = () => {
     return (
-        <div>FlavorSlider</div>
+        <div>FlavorSlider</div>
+    )
+}
