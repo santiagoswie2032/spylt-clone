@@ -9,4 +9,8 @@ const FlavorSection = () => {
                 <FlavorTitle />
             </div>
             <div className='h-full'></div>
-            <FlavorSlider />
+            <FlavorSlider />
+        </div>
+    </section>
+}
+
