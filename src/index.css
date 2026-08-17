@@ -19,3 +19,24 @@
     --color-dark-brown: #523122;
     --color-mid-brown: #a26833;
     --color-light-brown: #e3a458;
+    --color-red-brown: #7f3b2d;
+    --color-yellow-brown: #a26833;
+    --color-milk-yellow: #e3d3bc;
+    --color-red: #a02128;
+    --color-milk: #faeade;
+    --font-sans: "Antonio", sans-serif;
+    --font-paragraph: "ProximaNova, sans-serif";
+}
+
+/* theme defines all the custom colors and fonts that will be used in the project */
+/* not hardcoded btw */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faeade;
+    color: #523122;
+    font-family: "Antonio", sans-serif;
+    overflow-x: hidden;
