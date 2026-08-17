@@ -6,4 +6,7 @@ import SplitText from "gsap/SplitText.js";
 const FlavorTitle = () => {
 
     useGSAP(() => {
-        const firstText = SplitText.create('.first-text-split h1', {
+        const firstText = SplitText.create('.first-text-split h1', {
+            type: "chars",
+        });
+
