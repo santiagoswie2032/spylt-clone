@@ -30,4 +30,7 @@ const FlavorTitle = () => {
 
         gsap.from(secText.chars, {
             yPercent: 200,
-            stagger: 0.02,
+            stagger: 0.02,
+            duration: 0.8,
+            ease: "power1.inOut",
+
