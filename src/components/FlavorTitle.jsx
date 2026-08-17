@@ -60,4 +60,7 @@ const FlavorTitle = () => {
             <div className="overflow-hidden 2xl:py-0 py-4 first-text-split">
                 <h1>We have 6</h1>
             </div>
-
+
+            <div style={{ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)" }} className="flavor-text-scroll -rotate-4 -translate-y-1 md:translate-y-2">
+                <div className="bg-mid-brown pb-4 2xl:pt-0 pt-1 2xl:px-7 px-4">
+                    <h2 className="text-milk leading-none">Fcuking</h2>
