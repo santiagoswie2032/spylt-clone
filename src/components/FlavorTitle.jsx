@@ -45,4 +45,7 @@ const FlavorTitle = () => {
 
         gsap.to('.flavor-text-scroll', {
             duration: 1,
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.inOut",
+
+            scrollTrigger: {
