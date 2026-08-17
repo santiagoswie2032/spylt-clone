@@ -66,4 +66,7 @@ const FlavorTitle = () => {
                     <h2 className="text-milk leading-none">Fcuking</h2>
                 </div>
             </div>
-
+
+            <div className="overflow-hidden 2xl:py-0 py-1 second-text-split -mt-6 md:-mt-20">
+                <h1>delicious flavors</h1>
+            </div>
