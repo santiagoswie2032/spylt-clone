@@ -1,9 +1,4 @@
 import React from 'react'
-
-const FlavorSection = () => {
-    return <section className='flavor-section'>
-
-    </section>
-}
-
-export default FlavorSection
+import FlavorTitle from '../components/FlavorTitle'
+import FlavorSlider from '../components/FlavorSlider'
+
