@@ -13,4 +13,8 @@ const FlavorSection = () => {
         </div>
     </section>
 }
-
+
+// the first div after <section is the wrapper for Title and fake
+// horizontal scrolling section.
+
+export default FlavorSection 
