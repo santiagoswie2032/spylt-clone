@@ -45,4 +45,20 @@ const FlavorTitle = () => {
 
         gsap.to('.flavor-text-scroll', {
             duration: 1,
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.inOut",
+
+            scrollTrigger: {
+                trigger: '.flavor-text-scroll',
+                start: 'top 50%'
+            }
+        })
+    })
+
+    return (
+        <div className="general-title col-center h-full 2xl:gap-32 xl:gap-28 gap-16 relative">
+            <div className="overflow-hidden 2xl:py-0 py-4 first-text-split">
+                <h1>We have 6</h1>
+            </div>
+
+            <div style={{ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)" }} className="flavor-text-scroll -rotate-4 -translate-y-1 md:translate-y-2">
