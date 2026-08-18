@@ -41,4 +41,11 @@ const FlavorSlider = () => {
                         <img src={`/images/${value.color}-drink.webp`} className="drinks" />
                         <img src={`/images/${value.color}-elements.webp`} alt="" className="elements" />
                         <h1>{value.name}</h1>
-                    </div>)
+                    </div>)
+                })}
+            </div>
+        </div>
+    );
+}
+
+export default FlavorSlider;
