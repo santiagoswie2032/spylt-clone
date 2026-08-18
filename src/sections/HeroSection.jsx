@@ -19,4 +19,15 @@ const HeroSection = () => {
         const tl = gsap.timeline({
             delay: 1,       //gsap timeline to animate the initial loading
         });
-
+
+
+
+        tl.to('.hero-content', {
+
+            opacity: 1,                      // to fade in the content
+            y: 0,                        // goes to 0 to its final position
+            ease: "power1.inOut"           // smooth in and out motion
+        }).to('.hero-text-scroll', {
+            duration: 1,
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.out"
