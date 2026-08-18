@@ -81,4 +81,16 @@ const MessageSection = () => {
             stagger: 0.02,                          // duration between popping up of each word
             rotate: 15,                              // starts from a 3 degree rotation back to 0 deg to give that rotating effect
             ease: 'power1.inOut',                   // smooth effect
-            yPercent: 300                           // where should it start from ? remember, its a reveal animation 
+            yPercent: 300                           // where should it start from ? remember, its a reveal animation 
+        })                                          // so you have to hide it first, then it reveals itself
+
+
+    });
+
+
+
+
+
+    return (
+        <section className='message-content'>
+            <div className='container mx-auto flex-center py-28 relative'>
