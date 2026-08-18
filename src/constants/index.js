@@ -87,4 +87,6 @@ const cards = [
         img: "/images/p7.png",
         translation: "translate-y-[10%]",
     },
-];
+];
+
+export { flavorlists, nutrientLists, cards };
