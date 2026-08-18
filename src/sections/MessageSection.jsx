@@ -105,4 +105,16 @@ const MessageSection = () => {
                             <div className="bg-light-brown md:pb-5 pb-3 px-5">
                                 <h2 className='text-red-brown'>Fuel Up Nigga</h2>
                             </div>
+                        </div>
+
+                        <h1 className='second-message'>
+                            Your Future With Every Gulp Of Perfect Protein
+                        </h1>
+                    </div>
+                    <div className="flex-center md:mt-20 mt-10">
+                        <div className="max-w-md px-10 flex-center overflow-hidden">
+                            <p>
+                                Rev up your rebel spirit and feeed the adventure of life with splyt,
+                                where you're one chug away from epic nostalgia and fearless fun.
+                            </p>
                         </div>
