@@ -57,4 +57,16 @@ const MessageSection = () => {
                 start: "top 60%",
 
 
-            }
+            }
+        });
+
+        revealTl.to('.msg-text-scroll', {
+            duration: 1,
+
+            clipPath: "polygon(0 0, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.inOut",
+        })
+
+
+        const paragraphTl = gsap.timeline({
+            scrollTrigger: {                         // scroll trigger will only have trigger: , start: , end: 
