@@ -21,4 +21,16 @@ const MessageSection = () => {
         });
 
         gsap.to(firstmsgSplit.words, {
-            color: "#faeade",
+            color: "#faeade",
+            stagger: 0.2,
+            ease: "none",
+            scrollTrigger: {
+                trigger: '.message-content',
+                start: "top center",
+                end: "40% center",       //giving scroll more distance
+                scrub: true,               // 1s numeric scrub for buttery lag
+
+
+            }
+
+        });
