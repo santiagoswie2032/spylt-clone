@@ -45,4 +45,16 @@ const MessageSection = () => {
                 end: "bottom center",       //giving scroll more distance
                 scrub: true,               // 1s numeric scrub for buttery lag
 
-
+
+            }
+
+        });
+
+        const revealTl = gsap.timeline({
+            delay: 0,
+            scrollTrigger: {
+                trigger: '.msg-text-scroll',
+                start: "top 60%",
+
+
+            }
