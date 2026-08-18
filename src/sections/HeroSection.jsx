@@ -30,4 +30,15 @@ const HeroSection = () => {
         }).to('.hero-text-scroll', {
             duration: 1,
             clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-            ease: "circ.out"
+            ease: "circ.out"
+        }, "-=0.5").from(titleSplit.chars, {   // from because we are defining the initial position first here 
+            yPercent: 200,                      // the bottom where it should start from, 200% below it is here
+            stagger: 0.02,                       // time diff between popping up of each character so it creates wave like animation
+            ease: "power2.out"
+        }, "-=0.8")
+
+        //-=0.5 is the position parameter here which basially cancels out the default 0.5s duration
+        // of hero-content to make sure both happens kinda at same point instead of one after another
+        // its basically for overlapping animation
+
+        // okay so the first thing that is getting
