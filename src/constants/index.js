@@ -27,4 +27,14 @@ const flavorlists = [
     {
         name: "Max Chocolate Milk",
         color: "black",
-        rotation: "md:rotate-[8deg] rotate-0",
+        rotation: "md:rotate-[8deg] rotate-0",
+    },
+];
+
+const nutrientLists = [
+    { label: "Potassium", amount: "245mg" },
+    { label: "Calcium", amount: "500mg" },
+    { label: "Vitamin A", amount: "176mcg" },
+    { label: "Vitamin D", amount: "5mcg" },
+    { label: "Iron", amount: "1mg" },
+];
