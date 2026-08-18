@@ -21,4 +21,7 @@ const FlavorSlider = () => {
                 })}
             </div>
         </div>
-    );
+    );
+}
+
+export default FlavorSlider;
