@@ -29,4 +29,20 @@ const FlavorTitle = () => {
         })
 
         gsap.from(secText.chars, {
-            yPercent: 200,
+            yPercent: 200,
+            stagger: 0.02,
+            duration: 0.8,
+            ease: "power1.inOut",
+
+            scrollTrigger: {
+                trigger: ".second-text-split h1",
+                start: "top 80%"
+            }
+
+        });
+
+
+
+        gsap.to('.flavor-text-scroll', {
+            duration: 1,
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
