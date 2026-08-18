@@ -1,0 +1,8 @@
+1. biggest fucking mistake i made, which i was losing my mind over, was why tf was my 
+site so snappy all of a sudden, like it had stopped being continuous smooth scroll
+that you can scroll through without having to lift my fingers from the nub of my thinkpad
+i tried : scroll-behaviour in index.css , scrub values, browser version, 
+browser's own scroll-behaviour, hell even the cursor settings in local settings 
+nothing worked, i removed the extra div i had, well i removed FlavorSlider fromm app.jsx
+because it had FlavorSection and FlavorSlider both, so i removed FlavorSlider and the 
+extra div i had in it, and it genuinely fucking fixed the problem.
