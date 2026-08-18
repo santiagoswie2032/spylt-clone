@@ -61,4 +61,17 @@ const FlavorTitle = () => {
                 <h1>We have 6</h1>
             </div>
 
-            <div style={{ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)" }} className="flavor-text-scroll -rotate-4 -translate-y-1 md:translate-y-2">
+            <div style={{ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)" }} className="flavor-text-scroll -rotate-4 -translate-y-1 md:translate-y-2">
+                <div className="bg-mid-brown pb-4 2xl:pt-0 pt-1 2xl:px-7 px-4">
+                    <h2 className="text-milk ">Fcuking</h2>
+                </div>
+            </div>
+
+            <div className="overflow-hidden 2xl:py-0 py-1 second-text-split -mt-6 md:-mt-20">
+                <h1>delicious flavors</h1>
+            </div>
+        </div>
+    )
+}
+
+export default FlavorTitle
