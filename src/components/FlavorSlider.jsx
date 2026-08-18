@@ -19,4 +19,15 @@ const FlavorSlider = () => {
                 scrub: true,
                 pin: true
             },
-        });
+        });
+
+        tl.to('.flavor-section', {
+            x: `-=${scrollAmount + 1000}px`,
+            ease: 'power1.inOut',
+
+        });
+    });
+
+
+    return (
+        <div ref={sliderRef} className="slider-wrapper">
