@@ -57,4 +57,14 @@ const cards = [
         src: "/videos/f3.mp4",
         rotation: "rotate-z-[-4deg]",
         name: "Andrew",
-        img: "/images/p3.png",
+        img: "/images/p3.png",
+        translation: "translate-y-[-5%]",
+    },
+    {
+        src: "/videos/f4.mp4",
+        rotation: "rotate-z-[4deg]",
+        name: "Bryan",
+        img: "/images/p4.png",
+        translation: "translate-y-[5%]",
+    },
+    {
