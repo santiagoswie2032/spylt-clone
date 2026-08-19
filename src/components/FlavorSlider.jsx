@@ -33,4 +33,8 @@ const FlavorSlider = () => {
                 trigger: '.first-text-split',
                 start: "top top",
                 end: "bottom 80%",
-                scrub: 3
+                scrub: 3
+            }
+        });
+
+        TitleTl.to('.first-text-split', {
