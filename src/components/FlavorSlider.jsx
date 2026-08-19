@@ -73,4 +73,8 @@ const FlavorSlider = () => {
                     </div>)
                 })}
             </div>
-        </div>
+        </div>
+    );
+}
+
+export default FlavorSlider;
