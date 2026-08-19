@@ -53,4 +53,8 @@ const FlavorSlider = () => {
 
 
 
+
+
+    });
+
 
