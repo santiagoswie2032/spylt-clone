@@ -29,4 +29,8 @@ const FlavorSlider = () => {
 
 
         const TitleTl = gsap.timeline({
-            scrollTrigger: {
+            scrollTrigger: {
+                trigger: '.first-text-split',
+                start: "top top",
+                end: "bottom 80%",
+                scrub: 3
