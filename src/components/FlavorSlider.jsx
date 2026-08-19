@@ -37,4 +37,8 @@ const FlavorSlider = () => {
             }
         });
 
-        TitleTl.to('.first-text-split', {
+        TitleTl.to('.first-text-split', {
+
+            xPercent: -30,
+            ease: "power1.inOut"
+
