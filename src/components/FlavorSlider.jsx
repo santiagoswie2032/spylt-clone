@@ -57,4 +57,8 @@ const FlavorSlider = () => {
 
     });
 
-
+
+    return (
+        <div ref={sliderRef} className="slider-wrapper">
+            <div className="flavors">
+                {flavorlists.map((value) => {
