@@ -17,4 +17,8 @@ const FlavorSlider = () => {
                 start: '2% top',
                 end: `+=${scrollAmount + 1500}px`,
                 scrub: true,
-                pin: true
+                pin: true
+            },
+        });
+
+        tl.to('.flavor-section', {
