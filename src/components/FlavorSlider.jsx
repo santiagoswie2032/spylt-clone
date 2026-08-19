@@ -45,4 +45,8 @@ const FlavorSlider = () => {
         }, "<").to('.flavor-text-scroll', {
             xPercent: -22,
             ease: "power1.inOut",
-
+
+        }, "<").to('.second-text-split', {
+            xPercent: -30,
+            ease: "power1.inOut"
+        })
