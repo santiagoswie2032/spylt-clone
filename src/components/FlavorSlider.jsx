@@ -25,4 +25,8 @@ const FlavorSlider = () => {
             x: `-=${scrollAmount + 1000}px`,
             ease: 'power1.inOut',
 
-        });
+        });
+
+
+        const TitleTl = gsap.timeline({
+            scrollTrigger: {
