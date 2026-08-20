@@ -1,29 +1,13 @@
-import React from 'react'
+import { useMediaQuery } from "react-responsive";
+import { nutrientLists } from "../constants";
+import { useEffect, useState } from "react";
+import { useGSAP } from "@gsap/react";
+import { SplitText } from "gsap/all";
+import gsap from "gsap";
 
 const NutritionSection = () => {
-    return (
-        <section className='nutrition-section'>
-            <img src="/images/slider-dip.png" alt="" className='w-full object-cover' />
+    const isMobile = useMediaQuery({
+        query: "(max-width: 768px)",
+    });
 
-            <img src="/images/big-img.png" alt="" />
-
-            <div className='flex md:flex-row flex-col justify-between md:px-10 px-5 mt-14 md:mt-0'>
-                <div className='relative inline-block md:translate-y-20'>
-                    <div className='general-title relative flex flex-col justify-center gap-24'>
-                        <div className='overflow-hidden place-self-start'>
-                            <h1>It still does</h1>
-                        </div>
-                        <div style={{}} className='nutrition-text-scroll place-self-start'>
-                            <div className='bg-yellow-brown pb-5 md:pt-0 pt-3 md:px-5 px-3 inline-block'></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='flex md:justify-center items-center translate-y-5'>
-                <div className=''></div>
-            </div>
-        </section>
-    )
-}
-
-export default NutritionSection 
+    const [lists, setLists] = useState(nutrientLists);
