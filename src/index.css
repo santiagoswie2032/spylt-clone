@@ -126,3 +126,35 @@ body::-webkit-scrollbar {
             h1:first-of-type {
                 @apply 2xl:max-w-4xl md:max-w-2xl max-w-xs text-center text-[#faeade10];
             }
+
+            h1:last-of-type {
+                @apply 2xl:max-w-7xl md:max-w-4xl max-w-xs text-center text-[#faeade10];
+            }
+        }
+
+        p {
+            @apply text-center font-paragraph;
+        }
+
+        h1,
+        h2 {
+            @apply leading-none;
+        }
+
+        .msg-text-scroll {
+            @apply rotate-[3deg] 2xl:translate-y-5 -translate-y-5 absolute z-10 border-[.5vw] border-[#7f3b2d];
+        }
+    }
+
+    .flavor-section {
+        @apply min-h-dvh bg-milk;
+
+        .flavor-text-scroll {
+            @apply rotate-[-3deg] md:translate-y-5 border-[.5vw] border-milk absolute z-10;
+        }
+
+        .first-text-split h1 {
+            @apply md:text-center text-dark-brown;
+        }
+
+        .second-text-split h1 {
