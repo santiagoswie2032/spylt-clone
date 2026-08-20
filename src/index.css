@@ -30,3 +30,35 @@
 
 /* theme defines all the custom colors and fonts that will be used in the project */
 /* not hardcoded btw */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faeade;
+    color: #523122;
+    font-family: "Antonio", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+/* above are some base html styling, spacing, padding, font setup etc*/
+
+/* hiding scrollbar for whole page */
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+/* below are some custom utility classes using tailwind utility feature */
+
+
+
+@layer utilities {
+    .flex-center {
