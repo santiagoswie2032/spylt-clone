@@ -10,4 +10,17 @@ const NutritionSection = () => {
         query: "(max-width: 768px)",
     });
 
-    const [lists, setLists] = useState(nutrientLists);
+    const [lists, setLists] = useState(nutrientLists);
+
+    useEffect(() => {
+        if (isMobile) {
+            setLists(nutrientLists.slice(0, 3));
+        } else {
+            setLists(nutrientLists);
+        }
+    }, [isMobile]);
+
+    useGSAP(() => {
+        const titleSplit = SplitText.create(".nutrition-title", {
+            type: "chars",
+        });
