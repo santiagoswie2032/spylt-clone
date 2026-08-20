@@ -114,4 +114,16 @@ const NutritionSection = () => {
                                     </p>
                                 </div>
 
-                                {index !== lists.length - 1 && (
+                                {index !== lists.length - 1 && (
+                                    <div className="spacer-border" />
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default NutritionSection;
