@@ -7,6 +7,7 @@ import MessageSection from './sections/MessageSection';
 import FlavorSection from './sections/FlavorSection';
 import FlavorSlider from './components/FlavorSlider';
 import { useGSAP } from '@gsap/react';
+import NutritionSection from './sections/NutritionSection';
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
                     <HeroSection />
                     <MessageSection />
                     <FlavorSection />
+                    <NutritionSection />
                 </div>
             </div>
 
