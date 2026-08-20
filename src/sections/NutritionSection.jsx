@@ -15,4 +15,10 @@ const NutritionSection = () => {
                         </div>
                         <div style={{}} className='nutrition-text-scroll place-self-start'>
                             <div className='bg-yellow-brown pb-5 md:pt-0 pt-3 md:px-5 px-3 inline-block'></div>
-                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='flex md:justify-center items-center translate-y-5'>
+                <div className=''></div>
+            </div>
