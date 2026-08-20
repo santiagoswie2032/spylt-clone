@@ -94,3 +94,35 @@ body::-webkit-scrollbar {
             .hero-title {
                 @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
             }
+
+            .hero-text-scroll {
+                @apply rotate-[-3deg] mb-8 border-[.5vw] border-milk;
+
+                .hero-subtitle {
+                    @apply bg-mid-brown;
+                }
+
+                h1 {
+                    @apply uppercase 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold text-[#fce1cd] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-5 2xl:py-0 py-3;
+                }
+            }
+
+            h2 {
+                @apply font-paragraph text-dark-brown text-center md:max-w-lg max-w-sm px-5 md:text-lg leading-[115%] mt-3;
+            }
+
+            .hero-button {
+                @apply md:mt-16 mt-10 text-dark-brown bg-light-brown uppercase font-bold text-lg rounded-full md:p-5 p-3 md:px-16 px-10;
+            }
+        }
+    }
+
+    .message-content {
+        @apply bg-[#7f3b2d] text-milk min-h-dvh overflow-hidden flex justify-center items-center relative z-20;
+
+        .msg-wrapper {
+            @apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw] flex flex-col justify-center items-center md:gap-24 gap-14;
+
+            h1:first-of-type {
+                @apply 2xl:max-w-4xl md:max-w-2xl max-w-xs text-center text-[#faeade10];
+            }
