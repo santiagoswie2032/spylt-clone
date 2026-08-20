@@ -16,14 +16,15 @@ const FlavorSlider = () => {
                 trigger: '.flavor-section',
                 start: '2% top',
                 end: `+=${scrollAmount + 1500}px`,
-                scrub: true,
+                scrub: 1,
                 pin: true
             },
         });
 
         tl.to('.flavor-section', {
             x: `-=${scrollAmount + 1000}px`,
-            ease: 'power1.inOut',
+            ease: 'none',
+            force3D: true
 
         });
 
@@ -31,24 +32,29 @@ const FlavorSlider = () => {
         const TitleTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.first-text-split',
-                start: "top top",
+                start: "top 1%",
                 end: "bottom 80%",
-                scrub: 3
+                scrub: 1,
+
             }
         });
 
         TitleTl.to('.first-text-split', {
 
-            xPercent: -30,
-            ease: "power1.inOut"
+            xPercent: -20,
+            ease: "power1.inOut",
+
 
         }, "<").to('.flavor-text-scroll', {
             xPercent: -22,
             ease: "power1.inOut",
 
+
         }, "<").to('.second-text-split', {
-            xPercent: -30,
-            ease: "power1.inOut"
+            xPercent: -10,
+            ease: "power1.inOut",
+
+
         })
 
 
