@@ -286,3 +286,26 @@ body::-webkit-scrollbar {
 
             p {
                 @apply text-center;
+            }
+        }
+    }
+}
+
+.nutrition-section {
+    background-color: #faeade00;
+    background-image: radial-gradient(circle, #f3ece2, #dcccb0);
+}
+
+.spin-circle {
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
