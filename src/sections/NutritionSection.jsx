@@ -88,4 +88,17 @@ const NutritionSection = () => {
                         >
                             <div className="bg-yellow-brown pb-5 md:pt-0 pt-3 md:px-5 px-3">
                                 <h2 className="text-milk-yellow">Body Good</h2>
-                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex md:justify-center items-center translate-y-5">
+                    <div className="md:max-w-xs max-w-md">
+                        <p className="text-lg md:text-right text-balance font-paragraph">
+                            Milk contains a wide array of nutrients, including vitamins,
+                            minerals, and protein, and this is lactose free
+                        </p>
+                    </div>
+                </div>
+
