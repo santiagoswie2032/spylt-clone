@@ -12,4 +12,19 @@ const FlavorSlider = () => {
         query: "(max-width: 1024px)",
     });
 
-
+
+    useGSAP(() => {
+
+        const scrollAmount = sliderRef.current.scrollWidth - window.innerWidth;
+
+
+        if (!isTablet) {
+            const tl = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.flavor-section',
+                    start: '2% top',
+                    end: `+=${scrollAmount + 1500}px`,
+                    scrub: 1,
+                    pin: true
+                },
+            });
