@@ -42,4 +42,19 @@ const FlavorSlider = () => {
 
         const TitleTl = gsap.timeline({
             scrollTrigger: {
-                trigger: '.first-text-split',
+                trigger: '.first-text-split',
+                start: "top 1%",
+                end: "bottom 80%",
+                scrub: 1,
+
+            }
+        });
+
+        TitleTl.to('.first-text-split', {
+
+            xPercent: -20,
+            ease: "power1.inOut",
+
+
+        }, "<").to('.flavor-text-scroll', {
+            xPercent: -22,
