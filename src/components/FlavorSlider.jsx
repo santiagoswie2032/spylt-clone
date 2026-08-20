@@ -27,4 +27,19 @@ const FlavorSlider = () => {
                     scrub: 1,
                     pin: true
                 },
-            });
+            });
+
+            tl.to('.flavor-section', {
+                x: `-=${scrollAmount + 1000}px`,
+                ease: 'none',
+                force3D: true
+
+            });
+
+
+        }
+
+
+        const TitleTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.first-text-split',
