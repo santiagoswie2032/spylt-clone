@@ -21,4 +21,9 @@ const NutritionSection = () => {
             </div>
             <div className='flex md:justify-center items-center translate-y-5'>
                 <div className=''></div>
-            </div>
+            </div>
+        </section>
+    )
+}
+
+export default NutritionSection 
