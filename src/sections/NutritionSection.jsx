@@ -23,4 +23,17 @@ const NutritionSection = () => {
     useGSAP(() => {
         const titleSplit = SplitText.create(".nutrition-title", {
             type: "chars",
-        });
+        });
+        const paragraphSplit = SplitText.create(".nutrition-section p", {
+            type: "words, lines",
+            linesClass: "paragraph-line",
+        });
+
+        const contentTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".nutrition-section",
+                start: "top center",
+            },
+        });
+        contentTl
+            .from(titleSplit.chars, {
