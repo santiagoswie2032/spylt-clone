@@ -36,4 +36,17 @@ const NutritionSection = () => {
             },
         });
         contentTl
-            .from(titleSplit.chars, {
+            .from(titleSplit.chars, {
+                yPercent: 100,
+                stagger: 0.02,
+                ease: "power2.out",
+            })
+            .from(paragraphSplit.words, {
+                yPercent: 300,
+                rotate: 3,
+                ease: "power1.inOut",
+                duration: 1,
+                stagger: 0.01,
+            });
+
+        const titleTl = gsap.timeline({
