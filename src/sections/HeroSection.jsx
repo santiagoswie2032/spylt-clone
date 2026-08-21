@@ -97,4 +97,14 @@ const HeroSection = () => {
                             isMobile && <img src="/images/hero-bg.png" className="absolute bottom-40 size-full object-cover"></img>
                         }
                             <img src="/images/hero-img.png" className="abosulte bottom-0 left-1/2 -translate-x-1/2 object-auto"></img>
-                        </>
+                        </>
+                    ) : (
+                        <video src="/videos/hero-bg.mp4" className="absolute inset-0 w-full h-full object-cover" autoPlay muted playsInline />
+                    )
+                }
+
+                <div className="hero-content" style={{ opacity: 0 }}>
+                    <div className="overflow-hidden">
+                        <h1 className="hero-title">Fcuking Delicious</h1>
+                    </div>
+
