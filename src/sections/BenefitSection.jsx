@@ -99,4 +99,10 @@ const BenefitSection = () => {
 
 
                         />
-
+
+
+                    </div>
+
+                    <div className='md:mt-0 mt-10'>
+                        <p> And Much More...</p>
+                    </div>
