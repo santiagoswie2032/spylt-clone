@@ -27,4 +27,9 @@ const VIdeoPinSection = () => {
 
 
 
-    return (
+    return (
+        <section className="vd-pin-section">
+            <div style={{
+                clipPath: "circle(0% at 50% 50%)"
+
+            }} className="size-full video-box ">
