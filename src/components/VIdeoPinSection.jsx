@@ -12,4 +12,9 @@ const VIdeoPinSection = () => {
                 start: 'top top',
                 end: '200%',
                 scrub: 1.5,
-                pin: true,
+                pin: true,
+            }
+        });
+
+        tl.to('.video-box', {
+            clipPath: "circle(100% at 50% 50%)",
