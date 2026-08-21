@@ -15,4 +15,10 @@ const BenefitSection = () => {
                 start: 'top 60%',
                 end: 'top top',
                 scrub: 1.5,
-            }
+            }
+        })
+
+        RevealTl.to('.benefit-section .first-title', {
+            duration: 0.5,
+            opacity: 1,
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
