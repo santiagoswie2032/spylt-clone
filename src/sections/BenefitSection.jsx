@@ -69,4 +69,10 @@ const BenefitSection = () => {
                             bg={'#c88e64'}
                             className={'first-title'}
                             borderColor={'#222123'}
-
+
+
+                        />
+                        <ClipPathTitle
+                            title={"protein + caffeine"}
+                            color={'#222123'}
+                            bg={'#faeade'}
