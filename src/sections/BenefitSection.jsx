@@ -105,4 +105,10 @@ const BenefitSection = () => {
 
                     <div className='md:mt-0 mt-10'>
                         <p> And Much More...</p>
-                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='relative overlay-box'>
+                <VIdeoPinSection />
+            </div>
