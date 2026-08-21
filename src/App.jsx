@@ -41,4 +41,11 @@ const App = () => {
                 </div>
             </div>
 
-
+
+
+        </main>
+    )
+}
+
+
+export default App
