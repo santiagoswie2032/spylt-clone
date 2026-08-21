@@ -19,4 +19,15 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 const App = () => {
 
-    useGSAP(() => {
+    useGSAP(() => {
+        ScrollSmoother.create({
+            smooth: 3,
+            effects: true,
+        });
+    });
+
+
+    return (
+        <main>
+            <NavBar />
+
