@@ -81,4 +81,10 @@ const BenefitSection = () => {
 
 
                         />
-                        <ClipPathTitle
+                        <ClipPathTitle
+                            title={"Infinitely Delicious"}
+                            color={'#faeade'}
+                            bg={'#7F3B2D'}
+                            className={'third-title'}
+                            borderColor={'#222123'}
+
