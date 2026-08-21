@@ -33,4 +33,10 @@ const BenefitSection = () => {
             opacity: 1,
             clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
             ease: "circ.out"
-        }).to('.benefit-section .fourth-title', {
+        }).to('.benefit-section .fourth-title', {
+            duration: 0.5,
+            opacity: 1,
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.out"
+        })
+
