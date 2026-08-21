@@ -67,4 +67,14 @@ const HeroSection = () => {
                 scrub: 3,          // this is NOT a string, a string will result in default scrub = 0
 
             },
-
+
+        });
+
+        // scrollTrigger is a gsap plugin which does animations upon the end user's scrolling 
+        // trigger selects the element which is to be triggered
+        // start : 1% top means as soon as hero container hits the vh window, the animation will 
+        // get triggered, scrub is to not having to sync scroll position and animation manuallyk
+
+        heroTl.to(".hero-container", {
+            rotate: 1,                  // rotate effect
+            scale: 0.8,                 // to shrink a lil bit
