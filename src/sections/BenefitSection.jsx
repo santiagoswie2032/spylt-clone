@@ -93,4 +93,10 @@ const BenefitSection = () => {
                         <ClipPathTitle
                             title={"Lactose Free"}
                             color={'#2E2D2F'}
-                            bg={'#FED775'}
+                            bg={'#FED775'}
+                            className={'fourth-title'}
+                            borderColor={'#222123'}
+
+
+                        />
+
