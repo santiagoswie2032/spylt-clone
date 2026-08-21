@@ -87,4 +87,14 @@ const HeroSection = () => {
 
 
 
-
+
+    return (
+        <section className="bg-main-bg">
+            <div className="hero-container">
+                {
+                    isTablet ? (
+                        <>{
+                            isMobile && <img src="/images/hero-bg.png" className="absolute bottom-40 size-full object-cover"></img>
+                        }
+                            <img src="/images/hero-img.png" className="abosulte bottom-0 left-1/2 -translate-x-1/2 object-auto"></img>
+                        </>
