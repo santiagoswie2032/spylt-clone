@@ -111,4 +111,9 @@ const BenefitSection = () => {
 
             <div className='relative overlay-box'>
                 <VIdeoPinSection />
-            </div>
+            </div>
+        </section>
+    )
+}
+
+export default BenefitSection
