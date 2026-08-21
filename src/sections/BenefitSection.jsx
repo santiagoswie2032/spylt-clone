@@ -63,4 +63,10 @@ const BenefitSection = () => {
                         Explore the Key Benefits of Choosing SPYLT</p>
 
                     <div className='col-center mt-20'>
-                        <ClipPathTitle
+                        <ClipPathTitle
+                            title={"Shelf stable"}
+                            color={'#faeade'}
+                            bg={'#c88e64'}
+                            className={'first-title'}
+                            borderColor={'#222123'}
+
