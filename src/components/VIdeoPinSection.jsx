@@ -42,4 +42,9 @@ const VIdeoPinSection = () => {
                         <img src="/images/play.svg" alt="" className="size-[3vw] ml-[.5vw]" />
                     </div>
                 </div>
-            </div>
+            </div>
+        </section>
+    )
+}
+
+export default VIdeoPinSection
