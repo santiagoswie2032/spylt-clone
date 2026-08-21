@@ -30,4 +30,15 @@ const App = () => {
     return (
         <main>
             <NavBar />
+
+            <div id="smooth-wrapper">
+                <div id="smooth-content">
+                    <HeroSection />
+                    <MessageSection />
+                    <FlavorSection />
+                    <NutritionSection />
+                    <BenefitSection />
+                </div>
+            </div>
+
 
