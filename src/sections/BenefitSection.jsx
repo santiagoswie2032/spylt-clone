@@ -21,4 +21,10 @@ const BenefitSection = () => {
         RevealTl.to('.benefit-section .first-title', {
             duration: 0.5,
             opacity: 1,
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.out"
+        }).to('.benefit-section .second-title', {
+            duration: 0.5,
+            opacity: 1,
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "circ.out"
