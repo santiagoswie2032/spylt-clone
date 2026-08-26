@@ -16,3 +16,12 @@ import TestimonialSection from './sections/TestimonialSection';
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 // write registerPlugin once here and use it everywhere in the project
 // and use it everywhere in the project 
+
+
+const App = () => {
+
+    useGSAP(() => {
+        ScrollSmoother.create({
+            smooth: 3,
+            effects: true,
+        });
