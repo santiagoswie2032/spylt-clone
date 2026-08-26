@@ -40,3 +40,24 @@ body {
     color: #523122;
     font-family: "Antonio", sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+/* above are some base html styling, spacing, padding, font setup etc*/
+
+/* hiding scrollbar for whole page */
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+/* below are some custom utility classes using tailwind utility feature */
+
+
+
+@layer utilities {
