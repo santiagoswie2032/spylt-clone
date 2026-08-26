@@ -43,3 +43,11 @@ const App = () => {
                     </div>
 
                     <TestimonialSection />
+                </div>
+            </div>
+
+
+
+        </main>
+    )
+}
