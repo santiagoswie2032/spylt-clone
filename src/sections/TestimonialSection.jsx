@@ -12,4 +12,6 @@ const TestimonialSection = () => {
 
         </section>
     )
-}
+}
+
+export default TestimonialSection
