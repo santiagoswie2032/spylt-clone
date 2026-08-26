@@ -34,3 +34,12 @@ const App = () => {
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
+                    <HeroSection />
+                    <MessageSection />
+                    <FlavorSection />
+                    <div>
+                        <NutritionSection />
+                        <BenefitSection />
+                    </div>
+
+                    <TestimonialSection />
