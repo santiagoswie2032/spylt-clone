@@ -17,4 +17,9 @@ const VIdeoPinSection = () => {
         });
 
         tl.to('.video-box', {
-            clipPath: "circle(100% at 50% 50%)",
+            clipPath: "circle(100% at 50% 50%)",
+            ease: "power1.inOut"
+        })
+    })
+
+
