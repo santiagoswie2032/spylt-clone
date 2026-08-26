@@ -9,4 +9,7 @@ const TestimonialSection = () => {
             </div>
 
             <div className="pin-box"></div>
-
+
+        </section>
+    )
+}
