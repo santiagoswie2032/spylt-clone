@@ -25,3 +25,12 @@ const App = () => {
             smooth: 3,
             effects: true,
         });
+    });
+
+
+    return (
+        <main>
+            <NavBar />
+
+            <div id="smooth-wrapper">
+                <div id="smooth-content">
