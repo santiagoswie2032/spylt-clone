@@ -1,4 +1,5 @@
 import { cards } from "../constants"
 
 const TestimonialSection = () => {
-    return (
+    return (
+        <section className="testimonials-section">
