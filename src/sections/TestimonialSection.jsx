@@ -21,4 +21,5 @@ const TestimonialSection = () => {
             </div>
 
         </section>
-    )
+    )
+}
