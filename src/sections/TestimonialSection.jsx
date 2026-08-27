@@ -11,4 +11,5 @@ const TestimonialSection = () => {
 
             <div className="pin-box">
                 {cards.map((card, index) => (
-                    <div
+                    <div
+                        key={index}
