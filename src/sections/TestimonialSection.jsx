@@ -10,4 +10,5 @@ const TestimonialSection = () => {
             </div>
 
             <div className="pin-box">
-                {cards.map((card, index) => (
+                {cards.map((card, index) => (
+                    <div
