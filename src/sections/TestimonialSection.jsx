@@ -13,4 +13,5 @@ const TestimonialSection = () => {
                 {cards.map((card, index) => (
                     <div
                         key={index}
-                        className={`vd-card ${card.translation} ${card.rotation}`}>
+                        className={`vd-card ${card.translation} ${card.rotation}`}>
+
