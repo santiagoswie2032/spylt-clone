@@ -15,4 +15,5 @@ const TestimonialSection = () => {
                         key={index}
                         className={`vd-card ${card.translation} ${card.rotation}`}>
 
-                        <video src={card.src} playsInline muted loop autoPlay className="size-full object-cover" />
+                        <video src={card.src} playsInline muted loop autoPlay className="size-full object-cover" />
+                    </div>
