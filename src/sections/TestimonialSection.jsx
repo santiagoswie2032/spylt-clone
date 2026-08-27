@@ -12,4 +12,5 @@ const TestimonialSection = () => {
             <div className="pin-box">
                 {cards.map((card, index) => (
                     <div
-                        key={index}
+                        key={index}
+                        className={`vd-card ${card.translation} ${card.rotation}`}>
