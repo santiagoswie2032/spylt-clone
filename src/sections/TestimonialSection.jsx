@@ -8,4 +8,5 @@ const TestimonialSection = () => {
                 <h1 className="text-light-brown sec-title">everyone</h1>
                 <h1 className="text third-title">talking</h1>
             </div>
-
+
+            <div className="pin-box">
