@@ -9,4 +9,5 @@ const TestimonialSection = () => {
                 <h1 className="text third-title">talking</h1>
             </div>
 
-            <div className="pin-box">
+            <div className="pin-box">
+                {cards.map((card, index) => (
