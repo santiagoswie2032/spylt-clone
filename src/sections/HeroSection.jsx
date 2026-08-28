@@ -26,7 +26,7 @@ const HeroSection = () => {
 
 
         const tl = gsap.timeline({
-            delay: 1,       //gsap timeline to animate the initial loading
+            delay: 1.3,       //gsap timeline to animate the initial loading
         });
 
 
