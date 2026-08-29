@@ -92,4 +92,8 @@ const FooterSection = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section>
+    );
+};
+
+export default FooterSection;
