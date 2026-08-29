@@ -77,4 +77,9 @@ const TestimonialSection = () => {
 
                         <video src={vid.src} playsInline muted loop autoPlay className="size-full object-cover" />
                     </div>
-                ))}
+                ))}
+            </div>
+
+        </section>
+    )
+}
