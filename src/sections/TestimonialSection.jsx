@@ -1,27 +1,5 @@
+import { useGSAP } from "@gsap/react"
 import { cards } from "../constants"
+import gsap from "gsap"
 
-const TestimonialSection = () => {
-    return (
-        <section className="testimonials-section">
-            <div className="absolute size-full flex flex-col items-center pt-[5vw]">
-                <h1 className="text-black first-title">What's</h1>
-                <h1 className="text-light-brown sec-title">everyone</h1>
-                <h1 className="text third-title">talking</h1>
-            </div>
-
-            <div className="pin-box">
-                {cards.map((card, index) => (
-                    <div
-                        key={index}
-                        className={`vd-card ${card.translation} ${card.rotation}`}>
-
-                        <video src={card.src} playsInline muted loop autoPlay className="size-full object-cover" />
-                    </div>
-                ))}
-            </div>
-
-        </section>
-    )
-}
-
-export default TestimonialSection
+const TestimonialSection = () => {
