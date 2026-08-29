@@ -207,3 +207,24 @@ body::-webkit-scrollbar {
                     @apply text-[#865720];
                 }
             }
+
+            .spacer-border {
+                @apply absolute right-0 top-1/2 transform -translate-y-1/2 md:h-24 h-16 w-px bg-[#C89C6E];
+            }
+        }
+    }
+
+    .benefit-section {
+        @apply min-h-dvh bg-[#222123] overflow-hidden relative;
+
+        p {
+            @apply text-milk font-paragraph text-center text-lg;
+        }
+
+        .first-title {
+            @apply rotate-[3deg] relative z-10;
+        }
+
+        .second-title {
+            @apply rotate-[-1deg] md:-translate-y-5;
+        }
