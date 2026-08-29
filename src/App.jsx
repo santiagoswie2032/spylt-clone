@@ -46,3 +46,12 @@ const App = () => {
                     <FooterSection />
                 </div>
             </div>
+
+
+
+        </main>
+    )
+}
+
+
+export default App
