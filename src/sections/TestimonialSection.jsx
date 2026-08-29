@@ -12,4 +12,9 @@ const TestimonialSection = () => {
 
         const titleTl = gsap.timeline({
             scrollTrigger: {
-                trigger: '.testimonials-section',
+                trigger: '.testimonials-section',
+                scrub: true,
+                start: 'top bottom',
+                end: '200% top'
+            }
+        });
