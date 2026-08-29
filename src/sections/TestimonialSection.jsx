@@ -42,4 +42,9 @@ const TestimonialSection = () => {
                 start: 'top top',
                 end: '150% top',
                 pin: true
-            }
+            }
+        });
+
+        pintTl.from('.vd-card', {
+            yPercent: 150,
+            stagger: 0.2,
