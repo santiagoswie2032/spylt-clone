@@ -57,4 +57,9 @@ const TestimonialSection = () => {
 
     return (
         <section className="testimonials-section">
-            <div className="absolute size-full flex flex-col items-center pt-0 -mt-10">
+            <div className="absolute size-full flex flex-col items-center pt-0 -mt-10">
+                <h1 className="text-black first-title">What's</h1>
+
+                {/* Combined row container */}
+                <div className="flex flex-row items-center text-light-brown">
+                    <h1 className="sec-title-one">Every</h1>
