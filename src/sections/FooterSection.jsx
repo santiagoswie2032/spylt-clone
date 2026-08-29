@@ -62,4 +62,9 @@ const FooterSection = () => {
                             <p>Contacts</p>
                             <p>Tasty Talk</p>
                         </div>
-                    </div>
+                    </div>
+
+                    <div className="md:max-w-lg">
+                        <p>
+                            Get Exclusive Early Access and Stay Informed About Product
+                            Updates, Events, and More!
