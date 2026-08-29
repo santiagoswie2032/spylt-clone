@@ -42,4 +42,9 @@ const FooterSection = () => {
                     <div className="social-btn">
                         <img src="./images/insta.svg" alt="" />
                     </div>
-                    <div className="social-btn">
+                    <div className="social-btn">
+                        <img src="./images/tiktok.svg" alt="" />
+                    </div>
+                </div>
+
+                <div className="mt-40 md:px-10 px-5 flex gap-10 md:flex-row flex-col justify-between text-milk font-paragraph md:text-lg font-medium">
