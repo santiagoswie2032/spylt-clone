@@ -72,4 +72,9 @@ const FooterSection = () => {
                         <div className="flex justify-between items-center border-b border-[#D9D9D9] py-5 md:mt-10">
                             {/* The input field and arrow icon for newsletter signup. */}{" "}
                             {/* A
-          border at the bottom for a clean, modern look. */}
+          border at the bottom for a clean, modern look. */}
+                            <input
+                                type="email"
+                                placeholder="Enter your email"
+                                className="w-full placeholder:font-sans placeholder:text-[#999999]"
+                            />
