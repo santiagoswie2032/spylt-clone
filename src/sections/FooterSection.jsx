@@ -32,4 +32,9 @@ const FooterSection = () => {
                         playsInline
                         muted
                         className="absolute top-0 object-contain mix-blend-lighten"
-                    />
+                    />
+                )}
+
+                <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
+                    <div className="social-btn">
+                        <img src="./images/yt.svg" alt="" />
