@@ -17,4 +17,9 @@ const FooterSection = () => {
                 <div className="overflow-hidden z-10">
                     <h1 className="general-title text-center text-milk py-5">
                         #CHUGRESPONSIBLY
-                    </h1>
+                    </h1>
+                </div>
+
+                {isMobile ? (
+                    <img
+                        src="/images/footer-drink.png"
