@@ -6,3 +6,5 @@ browser's own scroll-behaviour, hell even the cursor settings in local settings
 nothing worked, i removed the extra div i had, well i removed FlavorSlider fromm app.jsx
 because it had FlavorSection and FlavorSlider both, so i removed FlavorSlider and the 
 extra div i had in it, and it genuinely fucking fixed the problem.
+
+
