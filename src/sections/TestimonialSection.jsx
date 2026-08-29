@@ -22,4 +22,9 @@ const TestimonialSection = () => {
         titleTl
             .to('.testimonials-section .first-title', {
                 xPercent: 75
-            }, "<")
+            }, "<")
+            .to('.testimonials-section .sec-title-one', {
+                xPercent: -30
+            }, "<")
+            .to('.testimonials-section .sec-title-two', {
+                xPercent: 30
