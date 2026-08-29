@@ -67,4 +67,9 @@ const TestimonialSection = () => {
                 </div>
 
                 <h1 className="text third-title">talking</h1>
-            </div>
+            </div>
+
+            <div className="pin-box h-screen w-full flex items-center justify-center">
+                {cards.map((vid, index) => (
+                    <div
+                        key={index}
