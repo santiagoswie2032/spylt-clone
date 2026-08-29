@@ -72,4 +72,9 @@ const TestimonialSection = () => {
             <div className="pin-box h-screen w-full flex items-center justify-center">
                 {cards.map((vid, index) => (
                     <div
-                        key={index}
+                        key={index}
+                        className={`vd-card ${vid.translation} ${vid.rotation}`}>
+
+                        <video src={vid.src} playsInline muted loop autoPlay className="size-full object-cover" />
+                    </div>
+                ))}
