@@ -27,4 +27,9 @@ const TestimonialSection = () => {
                 xPercent: -30
             }, "<")
             .to('.testimonials-section .sec-title-two', {
-                xPercent: 30
+                xPercent: 30
+            }, "<")
+            .to('.testimonials-section .third-title', {
+                xPercent: -75
+            }, "<")
+
