@@ -62,4 +62,9 @@ const TestimonialSection = () => {
 
                 {/* Combined row container */}
                 <div className="flex flex-row items-center text-light-brown">
-                    <h1 className="sec-title-one">Every</h1>
+                    <h1 className="sec-title-one">Every</h1>
+                    <h1 className="sec-title-two">one</h1>
+                </div>
+
+                <h1 className="text third-title">talking</h1>
+            </div>
