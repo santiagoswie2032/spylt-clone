@@ -32,4 +32,9 @@ const TestimonialSection = () => {
             .to('.testimonials-section .third-title', {
                 xPercent: -75
             }, "<")
-
+
+
+
+        const pintTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.testimonials-section',
