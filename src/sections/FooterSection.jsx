@@ -77,4 +77,9 @@ const FooterSection = () => {
                                 type="email"
                                 placeholder="Enter your email"
                                 className="w-full placeholder:font-sans placeholder:text-[#999999]"
-                            />
+                            />
+                            <img src="/images/arrow.svg" alt="arrow" />
+                        </div>
+                    </div>
+                </div>
+
