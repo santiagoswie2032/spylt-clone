@@ -27,4 +27,9 @@ const FooterSection = () => {
                     />
                 ) : (
                     <video
-                        src="/videos/splash.mp4"
+                        src="/videos/splash.mp4"
+                        autoPlay
+                        playsInline
+                        muted
+                        className="absolute top-0 object-contain mix-blend-lighten"
+                    />
