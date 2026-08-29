@@ -7,4 +7,9 @@ const FooterSection = () => {
 
     return (
         <section className="footer-section">
-            <img
+            <img
+                src="/images/footer-dip.png"
+                alt=""
+                className="w-full object-cover -translate-y-1"
+            />
+
