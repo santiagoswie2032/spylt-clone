@@ -34,3 +34,15 @@ const App = () => {
             <NavBar />
 
             <div id="smooth-wrapper">
+                <div id="smooth-content">
+                    <HeroSection />
+                    <MessageSection />
+                    <FlavorSection />
+                    <NutritionSection />
+                    <div>
+                        <BenefitSection />
+                        <TestimonialSection />
+                    </div>
+                    <FooterSection />
+                </div>
+            </div>
