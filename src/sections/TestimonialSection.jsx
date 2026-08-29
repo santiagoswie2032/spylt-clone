@@ -17,4 +17,9 @@ const TestimonialSection = () => {
                 start: 'top bottom',
                 end: '200% top'
             }
-        });
+        });
+
+        titleTl
+            .to('.testimonials-section .first-title', {
+                xPercent: 75
+            }, "<")
