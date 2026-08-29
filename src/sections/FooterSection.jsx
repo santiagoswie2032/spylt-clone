@@ -52,4 +52,9 @@ const FooterSection = () => {
                         <div>
                             <p>SPYLT Flavors</p>
                         </div>
+                        <div>
+                            <p>Chug Club</p>
+                            <p>Student Marketing</p>
+                            <p>Dairy Dealers</p>
+                        </div>
                         <div>
