@@ -7,4 +7,9 @@ const TestimonialSection = () => {
 
     useGSAP(() => {
         gsap.set('.testimonials-section', {
-            marginTop: "-100vh",
+            marginTop: "-100vh",
+        });
+
+        const titleTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.testimonials-section',
