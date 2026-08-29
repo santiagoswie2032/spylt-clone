@@ -47,4 +47,9 @@ const TestimonialSection = () => {
 
         pintTl.from('.vd-card', {
             yPercent: 150,
-            stagger: 0.2,
+            stagger: 0.2,
+            ease: "power1.inOut",
+
+        })
+    });
+
